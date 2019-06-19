@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Event Calendar</title>
+    <link href="calendar.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Caveat:400,700|Roboto:400,400i,700,700i&display=swap&subset=cyrillic" rel="stylesheet"> 
+    <script src="calendar.js"></script>
+</head>
+<body>
+  <div id="page-body">
+
+    <!-- [CHANGE PERIOD SELECTOR] -->
+    <div id="navbar">
+        <h1>Event Calendar</h1>
+      <input id="btn-prev" type="button" value="PREV"/>
+      <input id="btn-today" type="button" value="TODAY"/>
+      <input id="btn-next" type="button" value="NEXT"/>
+    </div>
+
+    <!-- [PERIOD SELECTOR] -->
+    <div id="cal-date">
+      <select id="cal-mth"></select>
+      <select id="cal-yr"></select>
+      <input id="cal-set" type="button" value="SET"/>
+    </div>
+
+    <!-- [CALENDAR] -->
+    <div id="cal-container"></div>
+
+    <!-- [EVENT] -->
+    <div id="cal-event"></div>
+  </div>
+</body>
+</html>
